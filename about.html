@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="Font Awesome/fontawesome-free-6.4.2-web/css/all.min.css">
+    <style>
+          *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --text-color:#000000;
+    --bg-color:#fff;
+    --main-color:rgb(3,119,227);
+    --other-color:#b5b9bf;
+
+    --h1-font:4.5rem;
+    --h2-font:2.9rem;
+    --p-font:1rem;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16%;
+    background: var(--bg-color);
+    transition: all 0.5s ease;
+}
+.logo{
+    font-size: 36px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+.mainheading{
+    color: black;
+}
+.middle{
+    color: var(--main-color);
+}
+.navlist{
+    display: flex;
+}
+.navlist a {
+font-size: var(--p-font);
+font-weight: 750;
+color: var(--text-color);
+margin-left: 40px;
+transition: all 0.5s ease;
+}
+.navlist a:hover{
+    padding-right: 10px;
+    color: var(--main-color);
+}
+#menu-icons{
+    font-size: 35px;
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+}
+.h-btn{
+    display: inline-block;
+    padding: 11px 26px;
+    background: transparent;
+    color: var(--text-color);
+    border: 4px solid var(--main-color);
+    transform: scale(1.1);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.h-btn:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 20px var(--main-color);
+    transform: scale(1.1);
+}
+.footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: white;
+        text-align: center;
+     }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:black;
+    }
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+
+.main p{
+   position: relative; 
+   margin:auto;
+   width:50%;
+   text-align: justify;
+   top: 100px;
+   font-family: 'Roboto Condensed', sans-serif;
+   line-height: 25px;
+}
+.main h1{
+    position: relative; 
+   margin:auto;
+   width:50%;
+   text-align: left;
+   top: 100px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><span class="mainheading">Daanyaal</span></a>
+        <div class="bx bx-menu" id="menu-icons"></div>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfoilio</a></li>
+                <li><a href="contact us .html">Contact</a></li>
+            </ul>
+    </header>
+
+<div class="main">
+    <h1>About Me</h1>
+    <br>
+    <p>Hello there! I'm Muhammad Daanyaal Irfan, and I'm currently diving into the exciting world of Computer Science in my first semester at BeaconHouse National University in Lahore, Pakistan. Armed with exceptional grades and a scholarship during my A-levels journey, I've always been driven by a passion for technology and innovation. My journey into the realm of web development began during the summer vacations, where I found myself immersed in the art of creating websites. It quickly evolved from a hobby to a genuine fascination, and I've been weaving digital wonders ever since. Beyond the code, my interests extend to the realms of e-commerce and automobiles. I proudly manage my own clothing store, Zero Attire, and for the past two years, I've been navigating the exhilarating world of car trading. Join me on this digital journey, where my love for technology meets my entrepreneurial spirit, and explore the fusion of my academic pursuits and real-world endeavors. Welcome to my virtual space!</p>
+</div>
+
+    <footer>
+        <div class="footer">
+          <div class="row">
+            <a href="https://www.facebook.com/daanyal.irfan/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/daanyaalvohra"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/div786"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+</body>
+</html>
